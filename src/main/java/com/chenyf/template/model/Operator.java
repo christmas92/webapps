@@ -1,6 +1,8 @@
 package com.chenyf.template.model;
 
 public class Operator {
+	private Integer id;
+	
     private String operatorId;
 
     private String password;
@@ -8,6 +10,14 @@ public class Operator {
     private String name;
 
     private Integer roleId;
+    
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getOperatorId() {
         return operatorId;
@@ -40,4 +50,6 @@ public class Operator {
     public void setRoleId(Integer roleId) {
         this.roleId = roleId;
     }
+
+	
 }
